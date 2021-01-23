@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.input {
+    @apply border border-gray-200 focus:outline-none focus:border-gray-500 py-3 px-5  transition-colors;
+}
+
+@tailwind utilities;
